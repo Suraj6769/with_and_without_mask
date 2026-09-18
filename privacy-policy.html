@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Privacy Policy for Interview Puzzles">
+          content="Privacy Policy for Claim.io">
 
     <meta name="robots" content="index, follow">
 
-    <title>Privacy Policy - Interview Puzzles</title>
+    <title>Privacy Policy - Claim.io</title>
 
     <style>
         * {
@@ -26,7 +26,7 @@
             margin: 0;
             padding: 0;
             background: #f5f7fb;
-            color: #1f2937;
+            color: #202124;
             font-family:
                 -apple-system,
                 BlinkMacSystemFont,
@@ -47,72 +47,150 @@
             background: #ffffff;
             border-radius: 16px;
             padding: 48px;
-            box-shadow:
-                0 10px 30px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 20px;
+            background: #e8f0fe;
+            color: #1a73e8;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
         }
 
         h1 {
-            margin-top: 0;
-            margin-bottom: 8px;
-            color: #111827;
+            margin: 0 0 8px;
             font-size: 36px;
             line-height: 1.2;
+            color: #111827;
         }
 
         h2 {
-            margin-top: 36px;
+            margin-top: 38px;
             margin-bottom: 12px;
-            color: #111827;
             font-size: 23px;
             line-height: 1.3;
+            color: #111827;
         }
 
         h3 {
             margin-top: 24px;
-            color: #111827;
+            margin-bottom: 8px;
             font-size: 18px;
+            color: #111827;
         }
 
         p {
             margin: 12px 0;
+            color: #4b5563;
         }
 
         ul {
             margin: 12px 0;
-            padding-left: 24px;
+            padding-left: 25px;
+            color: #4b5563;
         }
 
         li {
             margin-bottom: 8px;
         }
 
-        .updated {
+        .meta {
             color: #6b7280;
             font-size: 14px;
-            margin-bottom: 32px;
+            margin-bottom: 30px;
         }
 
-        .intro {
-            font-size: 16px;
+        .summary {
+            background: #f0fdf4;
+            border-left: 4px solid #16a34a;
+            padding: 18px 20px;
+            border-radius: 8px;
+            margin: 24px 0;
         }
 
-        .highlight {
-            background: #f3f4f6;
-            border-left: 4px solid #4f46e5;
-            padding: 16px 18px;
+        .summary p {
+            margin: 0;
+            color: #166534;
+            font-weight: 500;
+        }
+
+        .info {
+            background: #eff6ff;
+            border-left: 4px solid #2563eb;
+            padding: 18px 20px;
             border-radius: 8px;
             margin: 20px 0;
         }
 
+        .info p {
+            margin: 0;
+            color: #1e40af;
+        }
+
+        .warning {
+            background: #fffbeb;
+            border-left: 4px solid #d97706;
+            padding: 18px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .warning p {
+            margin: 0;
+            color: #92400e;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th,
+        td {
+            padding: 13px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        th {
+            background: #f9fafb;
+            color: #111827;
+            font-weight: 600;
+        }
+
+        td {
+            color: #4b5563;
+        }
+
+        code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
         .contact {
             background: #f9fafb;
-            padding: 20px;
-            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 22px;
             margin-top: 20px;
         }
 
+        .contact p {
+            margin: 7px 0;
+            color: #374151;
+        }
+
         a {
-            color: #4f46e5;
+            color: #2563eb;
             text-decoration: none;
         }
 
@@ -120,16 +198,21 @@
             text-decoration: underline;
         }
 
-        .footer {
+        footer {
             margin-top: 40px;
             padding-top: 20px;
             border-top: 1px solid #e5e7eb;
+            text-align: center;
             color: #6b7280;
             font-size: 14px;
-            text-align: center;
         }
 
         @media (max-width: 700px) {
+
+            body {
+                padding: 20px 10px;
+            }
+
             .container {
                 width: min(100% - 20px, 900px);
                 margin: 20px auto;
@@ -137,7 +220,6 @@
 
             .card {
                 padding: 28px 20px;
-                border-radius: 12px;
             }
 
             h1 {
@@ -146,6 +228,11 @@
 
             h2 {
                 font-size: 21px;
+            }
+
+            table {
+                display: block;
+                overflow-x: auto;
             }
         }
     </style>
@@ -157,315 +244,415 @@
 
     <main class="card">
 
+        <div class="badge">
+            Official Policy
+        </div>
+
         <h1>Privacy Policy</h1>
 
-        <div class="updated">
-            <strong>App:</strong> Interview Puzzles<br>
-            <strong>Last Updated:</strong> September 14, 2026
-        </div>
+        <div class="meta">
+            <strong>Application:</strong>
+            Claim.io (<code>com.rvtechsolutions.claimio</code>)
+            <br>
 
-        <p class="intro">
-            This Privacy Policy explains how Interview Puzzles,
-            developed by RV Tech Solutions Pvt. Ltd., handles information
-            when you use the application.
-        </p>
+            <strong>Developer:</strong>
+            RV Tech Solutions
+            <br>
 
-        <p>
-            We respect your privacy and are committed to being transparent
-            about the information that the application stores and how that
-            information is handled.
-        </p>
-
-
-        <h2>1. Information We Handle</h2>
-
-        <p>
-            Interview Puzzles is designed primarily to operate using data
-            stored locally on your device.
-        </p>
-
-        <p>
-            Depending on how you use the application, you may enter or create
-            the following information:
-        </p>
-
-        <ul>
-            <li>Your name</li>
-            <li>Your email address</li>
-            <li>Your target company</li>
-            <li>Your target role</li>
-            <li>Puzzle progress</li>
-            <li>Completed puzzles and levels</li>
-            <li>Star ratings and bookmarks</li>
-            <li>Other application preferences and progress information</li>
-        </ul>
-
-        <div class="highlight">
-            <strong>Important:</strong>
-            The information listed above is stored locally on your device
-            for application functionality and is not intentionally transmitted
-            to our servers by the application.
+            <strong>Last Updated:</strong>
+            September 17, 2026
         </div>
 
 
-        <h2>2. How We Use Information</h2>
+        <!-- SUMMARY -->
+
+        <div class="summary">
+
+            <p>
+                <strong>Privacy Summary:</strong>
+                Claim.io is designed as an offline game.
+                We do not collect, transmit, sell, or share personal
+                user information with external servers.
+                Gameplay progress and preferences may be stored locally
+                on your device.
+            </p>
+
+        </div>
+
+
+        <!-- 1 -->
+
+        <h2>1. Introduction</h2>
 
         <p>
-            Information stored by the application is used to provide the
-            application's features and functionality.
-        </p>
-
-        <p>This may include:</p>
-
-        <ul>
-            <li>Saving your interview profile</li>
-            <li>Remembering your puzzle progress</li>
-            <li>Saving completed levels</li>
-            <li>Saving bookmarks and ratings</li>
-            <li>Maintaining your application preferences</li>
-            <li>Providing a personalized experience within the application</li>
-        </ul>
-
-        <p>
-            We do not use locally stored information for advertising,
-            behavioral profiling, or selling personal information.
-        </p>
-
-
-        <h2>3. Data Storage</h2>
-
-        <p>
-            The application stores supported profile and gameplay information
-            locally on your device.
+            RV Tech Solutions ("we", "our", or "us") operates the
+            Claim.io mobile game application (the "App").
         </p>
 
         <p>
-            This local storage allows the application to remember your
-            progress and preferences when you return to the application.
-        </p>
-
-        <p>
-            We do not intentionally maintain a remote copy of this locally
-            stored information on our own servers.
-        </p>
-
-
-        <h2>4. Internet Permission</h2>
-
-        <p>
-            The Android application may request Internet access
-            (<code>android.permission.INTERNET</code>).
-        </p>
-
-        <p>
-            Internet access may be used for application resources such as
-            loading web content, application assets, fonts, or other resources
-            required for the application to function correctly.
-        </p>
-
-        <p>
-            The application does not intentionally use Internet access to
-            transmit your locally stored profile information or gameplay
-            progress to our servers.
+            We respect your privacy and are committed to protecting
+            information associated with your use of the App.
+            This Privacy Policy explains how Claim.io handles
+            information and how locally stored gameplay data is
+            retained and deleted.
         </p>
 
 
-        <h2>5. Analytics and Advertising</h2>
+        <!-- 2 -->
+
+        <h2>2. Information Collection and Transmission</h2>
 
         <p>
-            Interview Puzzles does not intentionally use third-party
-            advertising or analytics services to track users.
+            Claim.io is designed as a standalone, offline game.
+            The App does not require an account or registration to
+            use its core gameplay functionality.
         </p>
 
+        <h3>No Personal Information Collected</h3>
+
         <p>
-            The application does not intentionally integrate services such as:
+            We do not intentionally collect or transmit personal
+            information such as:
         </p>
 
         <ul>
-            <li>Google Analytics</li>
-            <li>Firebase Analytics</li>
-            <li>Mixpanel</li>
-            <li>Google AdMob</li>
-            <li>Unity Ads</li>
+            <li>Name</li>
+            <li>Email address</li>
+            <li>Phone number</li>
+            <li>Postal address</li>
+            <li>Location information</li>
+            <li>Contacts</li>
+            <li>Photos or videos</li>
+            <li>Audio recordings</li>
+            <li>Authentication credentials</li>
+            <li>Advertising identifiers</li>
+        </ul>
+
+        <h3>No Account Creation</h3>
+
+        <p>
+            Claim.io does not require users to create an account,
+            register, or provide personal information in order to
+            play the game.
+        </p>
+
+        <h3>No Remote Data Transmission</h3>
+
+        <p>
+            The App does not intentionally send gameplay information,
+            analytics, telemetry, diagnostics, or personal information
+            to remote servers.
+        </p>
+
+        <h3>No Advertising Tracking</h3>
+
+        <p>
+            Claim.io does not intentionally use advertising identifiers
+            or tracking technologies to create user profiles or track
+            users across applications or websites.
+        </p>
+
+
+        <!-- 3 -->
+
+        <h2>3. Device Permissions</h2>
+
+        <p>
+            The App requests only the minimum device permission
+            necessary for its core functionality.
+        </p>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Permission</th>
+                    <th>Purpose</th>
+                    <th>Data Transmission</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>
+                        <code>android.permission.VIBRATE</code>
+                    </td>
+
+                    <td>
+                        Used on-device to provide haptic feedback
+                        during gameplay interactions.
+                    </td>
+
+                    <td>
+                        No data is transmitted.
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <p>
+            The App does not intentionally use this permission to
+            collect personal information.
+        </p>
+
+        <div class="info">
+
+            <p>
+                Claim.io does not intentionally request Internet
+                permission and is designed to operate without
+                external network access.
+            </p>
+
+        </div>
+
+
+        <!-- 4 -->
+
+        <h2>4. On-Device Data Storage</h2>
+
+        <p>
+            Claim.io may use local storage on your device, including
+            technologies such as HTML5 localStorage, to preserve
+            gameplay information.
+        </p>
+
+        <p>
+            Locally stored information may include:
+        </p>
+
+        <ul>
+            <li>Gameplay progress</li>
+            <li>High scores</li>
+            <li>Game settings</li>
+            <li>Sound volume preferences</li>
+            <li>Haptic preferences</li>
+            <li>Other gameplay preferences</li>
         </ul>
 
         <p>
-            We do not sell personal information to advertisers or other
-            third parties.
+            This information remains on your device and is not
+            intentionally uploaded or transferred to RV Tech Solutions
+            or external servers.
         </p>
 
 
-        <h2>6. Sharing of Information</h2>
+        <!-- 5 -->
+
+        <h2>5. Data Retention and Deletion</h2>
+
+        <h3>Data Retention</h3>
 
         <p>
-            We do not intentionally sell, rent, or share your locally stored
-            personal information with third parties.
+            Locally stored gameplay data is retained on your device
+            for as long as it is needed to preserve your gameplay
+            progress, scores, and application preferences.
         </p>
 
         <p>
-            Because the information described in this policy is stored locally
-            on your device and is not intentionally transmitted to our
-            servers, we do not have access to that locally stored information
-            through the application.
-        </p>
-
-
-        <h2>7. Data Retention and Deletion</h2>
-
-        <p>
-            We retain locally stored application data only for as long as it
-            remains on your device and is required for the application's
-            functionality.
+            RV Tech Solutions does not intentionally maintain a
+            server-side copy of this locally stored gameplay data.
         </p>
 
         <p>
-            Your locally stored profile information, puzzle progress,
-            bookmarks, ratings, and preferences remain on your device until
-            you delete them, clear the application's storage/data, or
-            uninstall the application.
+            Therefore, there is no remote retention period for this
+            gameplay information on our servers.
         </p>
 
         <h3>How to Delete Your Data</h3>
 
         <p>
-            You can remove locally stored application data by using the
-            application's available reset/delete functionality, if provided,
-            or by clearing the application's storage/data through your
-            device settings.
+            You can delete locally stored Claim.io data at any time
+            by clearing the App's storage through your Android device
+            settings.
+        </p>
+
+        <div class="info">
+
+            <p>
+                <strong>
+                    Typical Android path:
+                </strong>
+                Settings → Apps → Claim.io → Storage →
+                Clear Storage / Clear Data
+            </p>
+
+        </div>
+
+        <p>
+            You may also delete locally stored application data by
+            uninstalling Claim.io from your device.
         </p>
 
         <p>
-            Uninstalling Interview Puzzles will also remove application data
-            stored locally by the application, subject to the normal behavior
-            of your device and operating system.
+            Clearing the application's storage or uninstalling the
+            App may permanently remove gameplay progress, high scores,
+            and saved preferences.
         </p>
 
         <p>
-            Since we do not intentionally maintain a server-side copy of this
-            locally stored information, there is no separate server account
-            or server database from which this local data needs to be deleted.
+            Because Claim.io does not intentionally maintain a
+            server-side account or database containing this local
+            gameplay information, no separate server-side deletion
+            request is required for this data.
         </p>
 
 
-        <h2>8. Children's Privacy</h2>
+        <!-- 6 -->
+
+        <h2>6. Third-Party Services</h2>
 
         <p>
-            Interview Puzzles is not designed to collect personal information
-            from children.
+            Claim.io does not intentionally include third-party
+            analytics libraries, advertising networks, or external
+            tracking services.
         </p>
 
         <p>
-            We do not knowingly collect or request personal information from
-            children through our servers.
+            The App does not intentionally use services such as:
         </p>
 
-        <p>
-            If you believe that a child has provided personal information
-            through the application in a way that should not have occurred,
-            please contact us so that we can review the situation.
-        </p>
-
-
-        <h2>9. Device Permissions</h2>
-
-        <p>
-            The application requests only permissions that are necessary for
-            its functionality.
-        </p>
+        <ul>
+            <li>Google Analytics</li>
+            <li>Firebase Analytics</li>
+            <li>Google AdMob</li>
+            <li>Meta/Facebook Analytics</li>
+            <li>Unity Ads</li>
+            <li>Mixpanel</li>
+        </ul>
 
         <p>
-            The application does not intentionally access your contacts,
-            precise location, camera, microphone, or other sensitive device
-            information for tracking purposes.
+            We do not sell or rent personal information to third parties.
         </p>
 
 
-        <h2>10. Data Security</h2>
+        <!-- 7 -->
+
+        <h2>7. Children's Privacy</h2>
 
         <p>
-            We take reasonable measures to protect information handled by the
-            application.
+            Claim.io is a family-friendly game and does not require
+            users to provide personal information to play.
         </p>
 
         <p>
-            Because supported profile and gameplay information is stored
-            locally on your device, the security of that information also
-            depends on the security of your device, operating system, and
-            device access controls.
+            We do not knowingly collect personal information from
+            children through remote servers.
         </p>
 
         <p>
-            We recommend keeping your device updated and protected with an
-            appropriate screen lock or other security mechanism.
+            If you believe that a child has provided personal
+            information to us in a manner that requires action,
+            please contact us using the information provided below.
         </p>
 
 
-        <h2>11. Third-Party Services</h2>
+        <!-- 8 -->
+
+        <h2>8. Security</h2>
 
         <p>
-            The application may rely on standard platform or infrastructure
-            services required for delivering application functionality.
+            Because Claim.io is designed to operate offline and does
+            not intentionally transmit locally stored gameplay data
+            over the network, there is no remote server database
+            maintained by us containing this gameplay information.
         </p>
 
         <p>
-            Any third-party service used in a future version of the
-            application that collects or processes personal or sensitive
-            user data will be reviewed and this Privacy Policy will be
-            updated where required.
+            The security of locally stored information also depends
+            on the security of your device and operating system.
+        </p>
+
+        <p>
+            We recommend keeping your device updated and protected
+            with an appropriate screen lock or other security mechanism.
         </p>
 
 
-        <h2>12. Changes to This Privacy Policy</h2>
+        <!-- 9 -->
+
+        <h2>9. Data Sharing</h2>
 
         <p>
-            We may update this Privacy Policy from time to time to reflect
-            changes to the application, its features, or applicable
+            We do not intentionally sell, rent, or share personal
+            information with third parties.
+        </p>
+
+        <p>
+            Gameplay data stored locally on your device is not
+            intentionally transmitted to us or third parties.
+        </p>
+
+
+        <!-- 10 -->
+
+        <h2>10. Changes to This Privacy Policy</h2>
+
+        <p>
+            We may update this Privacy Policy periodically to reflect
+            changes to the application, its functionality, or applicable
             requirements.
         </p>
 
         <p>
-            When we make changes, the updated version will be published on
-            this page with a revised "Last Updated" date.
+            Any updates will be published on this page and the
+            "Last Updated" date will be revised accordingly.
         </p>
 
         <p>
-            We encourage users to review this Privacy Policy periodically.
+            We encourage users to periodically review this Privacy
+            Policy for the latest information.
         </p>
 
 
-        <h2>13. Contact Us</h2>
+        <!-- 11 -->
+
+        <h2>11. Contact Us</h2>
 
         <div class="contact">
 
             <p>
-                If you have any questions, concerns, or requests regarding
-                this Privacy Policy or the handling of information by
-                Interview Puzzles, please contact us.
+                If you have any questions, suggestions, or concerns
+                regarding this Privacy Policy or Claim.io's privacy
+                practices, please contact us.
             </p>
 
             <p>
                 <strong>Developer:</strong><br>
-                RV Tech Solutions Pvt. Ltd.
+                RV Tech Solutions
+            </p>
+
+            <p>
+                <strong>Application:</strong><br>
+                Claim.io
+            </p>
+
+            <p>
+                <strong>Package Name:</strong><br>
+                <code>com.rvtechsolutions.claimio</code>
             </p>
 
             <p>
                 <strong>Email:</strong><br>
-                <a href="mailto:support@rvtech.com">
-                    support@rvtech.com
+                <a href="mailto:contactrv108@gmail.com">
+                    contactrv108@gmail.com
                 </a>
             </p>
 
         </div>
 
 
-        <div class="footer">
-            © 2026 RV Tech Solutions Pvt. Ltd.
+        <footer>
+            © 2026 RV Tech Solutions.
             All rights reserved.
-        </div>
+        </footer>
 
     </main>
 
 </div>
 
 </body>
+
 </html>
